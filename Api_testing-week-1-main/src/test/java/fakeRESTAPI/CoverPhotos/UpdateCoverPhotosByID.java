@@ -13,7 +13,7 @@ public class UpdateCoverPhotosByID {
 		
 		// PRE CONDITION
 		given()
-			.pathParam("id", 177)
+			.pathParam("id", 200)
 			.contentType("application/json")
 			.body(json_file)
 			
