@@ -9,9 +9,9 @@ public class UpdateAuthor {
 	public void updateAuthor() {
 		String body = """
 				{
-					"id": 204,
-				    "firstName": "sabari",
-				    "lastName": "nathan"
+					"id": 44,
+				    "firstName": "subhash",
+				    "lastName": "rock"
 				}
 				""";
 		RestAssured.given()
