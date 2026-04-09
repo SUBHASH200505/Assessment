@@ -11,7 +11,7 @@ public class UploadImageByForm {
 		File picture = new File("C:/Users/Manish/Pictures/Wallpapers/Mountain_light.png");
 		// PRE CONDITION
 		RestAssured.given()
-			.pathParam("petId", 576960)
+			.pathParam("petId", 444444)
 			.multiPart("file", picture) //use multipart for file uploads
 		
 		// HTTP METHOD
