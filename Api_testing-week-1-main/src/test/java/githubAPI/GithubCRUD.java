@@ -18,8 +18,8 @@ public class GithubCRUD {
     				.contentType("application/json")
     				.body("""
 	    			{
-	    			"name" : "repoREST",
-	    			"description" : "des"
+	    			"name" : "api",
+	    			"description" : "description"
 	    			}
 	    			""")
     				.header("Authorization" , "")
@@ -58,8 +58,8 @@ public class GithubCRUD {
 		.contentType("application/json").header("Authorization" , "")
 		.body("""
     			{
-    			"name" : "repoREST",
-    			"description" : "des1"
+    			"name" : "admin",
+    			"description" : "abccc"
     			}
     			""")    
 	// HTTP METHOD
