@@ -9,18 +9,18 @@ public class AddNewPet {
 			// PRE CONDITION
 			RestAssured.given()
 			.contentType("application/json")
-            .body("{\"id\": 0,\r\n"
+            .body("{\"id\": 1,\r\n"
             		+ "  \"category\": {\r\n"
-            		+ "    \"id\": 0,\r\n"
+            		+ "    \"id\": 2,\r\n"
             		+ "    \"name\": \"string\"\r\n"
             		+ "  },\r\n"
-            		+ "  \"name\": \"doggie\",\r\n"
+            		+ "  \"name\": \"rockstar\",\r\n"
             		+ "  \"photoUrls\": [\r\n"
             		+ "    \"string\"\r\n"
             		+ "  ],\r\n"
             		+ "  \"tags\": [\r\n"
             		+ "    {\r\n"
-            		+ "      \"id\": 0,\r\n"
+            		+ "      \"id\": 3,\r\n"
             		+ "      \"name\": \"string\"\r\n"
             		+ "    }\r\n"
             		+ "  ],\r\n"
