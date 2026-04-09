@@ -9,10 +9,10 @@ public class CreateAuthor {
 	public void createAuthor() {
 		String body = """
 				{
-					"id": 20,
-					"idBook" : 10,
-				    "firstName": "sabari",
-				    "lastName": "nathan"
+					"id": 7,
+					"idBook" : 9,
+				    "firstName": "rock",
+				    "lastName": "star"
 				}
 				""";
 		RestAssured.given()
