@@ -15,7 +15,7 @@ public class UpdateBookByID {
 		
 		// PRE CONDITION
 		given()
-			.pathParam("id", 177)
+			.pathParam("id", 300)
 			.contentType("application/json")
 			.body(json_file)
         
